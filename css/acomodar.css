@@ -1,0 +1,168 @@
+/*------BOTON IR HACIA ARRIBA--------*/
+/*--------------ABRE--------------*/
+
+.btn-ir-arriba {
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    background: url("../img/uo.png");
+    width: 70px;
+    height: 70px;
+    margin: 10px auto;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/*--------------CIERRA--------------*/
+/*------BOTON IR HACIA ARRIBA--------*/
+
+
+/*------INFORMACION NUMERO DE CELULAR--------*/
+/*--------------ABRE--------------*/
+
+.info-celular {
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    background: rgba(33, 33, 33, 1);
+    color: white;
+    border-radius: 0px 22px 22px 0px;
+    padding: 10px 4px;
+    margin-top: 100px;
+    top: 10;
+    z-index: 9999;
+    text-align: center;
+}
+
+/*--------------CIERRA--------------*/
+/*------INFORMACION NUMERO DE CELULAR--------*/
+
+
+
+/*------MENU DE NAVEGACION--------*/
+/*--------------ABRE--------------*/
+
+.nombre-y-logo {
+    display: flex;
+    flex: wrap;
+}
+
+.nombre-y-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+.nombre-y-logo h1 {
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 2000;
+    background: white;
+    border-bottom: 2px solid rgba(224, 224, 224, 1);
+}
+
+header nav {
+    align-self: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+
+header nav ul li a {
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    transition: 300ms all;
+}
+
+header nav ul li a:hover {
+    border-radius: 25px;
+    color: white;
+    background: rgba(38, 50, 56, 1);
+}
+/*-------------CIERRA-------------*/
+/*------MENU DE NAVEGACION--------*/
+
+
+
+/*------IMAGEN DE APERTURA O PRESENTACION--------*/
+/*-------------ABRE-------------*/
+
+.apertura {
+
+    width: 100%;
+}
+
+.apertura img {
+    width: 100%;
+    background-attachment: fixed;
+    vertical-align: top;
+}
+
+/*-------------CIERRA-------------*/
+/*------IMAGEN DE APERTURA O PRESENTACION--------*/
+
+
+/*------TECNOLOGIAS--------*/
+/*-----------ABRE----------*/
+
+.main-tecno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(238, 238, 238, 1);
+    padding-bottom: 60px;
+}
+
+.main-tecno .texto-tecno {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.main-tecno .content-tecno {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.html, .css, .js, .jquery, .wordpress, .bootstrap, .php {
+    box-sizing: content-box;
+    margin-top: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.html h2, .css h2, .js h2, .jquery h2, .wordpress h2, .bootstrap h2, .php h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------CIERRA---------*/
+/*------TECNOLOGIAS--------*/
+
+
+

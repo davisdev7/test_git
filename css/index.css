@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Rancho');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Farsan');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+* {
+
+    margin: 0px;
+}
+
+
+.relative {
+
+    position: relative;
+    
+}
+
+
+
+.absolute {
+
+    position: absolute;
+    top: 50%;
+}
+
+.text-open {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+font-size: 4em;
+}
+
+.absolute2 {
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color: white;
+    padding: 20px 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.main-stack::after{
+
+    content: "";
+    display: block;
+    background: #263238;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    transform: skew(5deg,5deg);
+
+}
+
+
+.main-stack {
+    line-height: 1.2;
+    background: #263238;
+}
+
+.pad {
+
+    padding: 5% 10%;
+    box-sizing: border-box;
+}
+
+
+.fop{
+text-align: center;
+}
+
+.fop h2 {
+
+    color:white;
+}
+.fop p {
+    margin-top:12px;
+    font-size:18px;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+}
+
+
+
+.cont-font {
+    text-align: center;
+}
+
+.cont-font h2 {
+    font-family: 'Amaranth', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.cont-font h2::after{
+
+    content: "";
+    margin: 10px auto;
+    width:19%;
+    background: white;
+    display:block;
+    height:3px;
+}
+
+

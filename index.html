@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Davis Ramirezyk - Diseñador WEB,Desarrollo WEB">
+    <meta name="description" content="soy davisramirezyk y este es mi portafolio personal, donde  muestro
+     mis habilidades para el diseños web y desarrollo web,pagina web oficial de davisramirezyk">
+    <meta name="keywords" content="davisramirezyk,diseño web,desarrollo web,desarrollador front-end,freelancer,desarrollo web cali">
+    <meta name="author" content="Davis Ramirez yk">
+    <link rel="shorcut icon" type="image" href="img/logo.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <title>Davis Ramirez YK - Diseñador WEB y Desarrollador WEB</title>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/up.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/eskju.jquery.scrollflow.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            // Selectors
+            ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+            header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+            // Speed & Easing
+            speed: 1300, // Integer. How fast to complete the scroll in milliseconds
+            offset:100, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+            easing: 'easeInOutCubic', // Easing pattern to use
+            customEasing: function (time) { }, // Function. Custom easing pattern
+
+            // Callback API
+            before: function () { }, // Callback to run before scroll
+            after: function () { } // Callback to run after scroll
+        });
+
+        $(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(350).css({'overflow':'visible'});
+});
+
+    </script>
+
+</head>
+
+<body>
+        <div id="preloader">
+                <div id="status">&nbsp;</div>
+              </div>
+              
+    <!--Boton Ir Hacia Arriba-->
+    <div id="ir-arriba" class="btn-ir-arriba"></div>
+
+    <!--Numero Celular-->
+    <div class="info-celular">
+        <img src="img/ca.png" alt="" width="25px">
+        <p>3
+
+            <br> 2</p>
+    </div>
+
+    <header>
+        <!--Logo Y Nombre-->
+        <div class="nombre-y-logo">
+            <img src="img/logo.jpg" alt="logodavisramirezyk">
+            <h1>Davis Ramirez</h1>
+        </div>
+
+        <!--Menu Navegacion-->
+        <nav>
+            <ul>
+                <li>
+                    <a data-scroll href="#acercademi">¿Quien soy?</a>
+                </li>
+                <li>
+                    <a data-scroll href="#tecno">Tecnologias</a>
+                </li>
+                <li>
+                    <a data-scroll href="#contacto">Contacto</a>
+                </li>
+                <li>
+                    <a data-scroll href="#projects">Mis Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+            <div class="relleno">
+
+                </div>
+        <!-- Contenedor Con Imagen Principal De Apertura-->
+        <div class="apertura">
+            <div class="contenedor-texto" id="aparecertexto">
+                
+            <div class="texto-principal">
+                <div class="imagen-icon">
+                    <img src="img/davis.jpg" alt="">
+                </div>
+                    <h2 >Apasionado por el desarrollo Web</h2>
+            </div>
+            </div>
+            <img src="img/Desarrollo-web.jpg" alt="" height="600px">
+        
+        </div>
+
+        <!--TECNOLOGIAS-->
+
+        <!--Contenedor Principal Tecnologias-->
+        <div class="main-tecno" id="tecno">
+            <!--Frase Apertura-->
+            <div class="texto-tecno">
+                <h2 class="scrollflow -slide-right -opacity" >Que Tecnologias Manejo</h2>
+            </div>
+
+            <!--Contenedor Que Agrupa Todos Los Tipos De Tecnologias-->
+            <div class="content-tecno scrollflow -slide-top -opacity">
+
+                <!--Primera Tecnologia-->
+                <section class="html">
+                    <img src="img/html.png" alt="" width="100">
+                    <H3>HTML</H3>
+                </section>
+
+                <!--Segunda Tecnologia-->
+                <section class="css">
+                    <img src="img/css.png" alt="" width="100">
+                    <H3>Css</H3>
+                </section>
+
+                <!--Tercera Tecnologia-->
+                <section class="js">
+                    <img src="img/js.png" alt="" width="100">
+                    <H3>Javascript</H3>
+                </section>
+
+                <!--Cuarta Tecnologia-->
+                <section class="jquery">
+                    <img src="img/jquery.png" alt="" width="100">
+                    <H3>Jquery</H3>
+                </section>
+
+                <!--Quinta Tecnologia-->
+                <section class="wordpress">
+                    <img src="img/wp.png" alt="" width="100">
+                    <H3>Wordpress</H3>
+                </section>
+
+                <!--Sexta Tecnologia-->
+                <section class="bootstrap">
+                    <img src="img/boot.png" alt="" width="100">
+                    <H3>Bootstrap</H3>
+                </section>
+
+                <!--Septima Tecnologia-->
+
+            </div>
+        </div>
+
+        <!--ACERCA DE MI-->
+
+        <!--Contenedor Principal Acerca De Mi-->
+        <div class="main-acercademi scrollflow -slide-right -opacity" id="acercademi">
+
+            <!--Seccion Acerca De Mi-->
+            <section class="content-acercademi">
+                <article>
+                    <h2>Acerca de mi</h2>
+                    <div class="descripcion">
+                    <p>Mi nombre es <strong>davis santiago ramirez diaz</strong> soy aprendiz sena del programa ADSI en donde desarrolle
+                        <b>habilidades</b> y
+                        <b> capacidades</b>
+                        para el
+                        <strong style="color:red;">diseño</strong> y
+                        <strong style="color:red;">desarrollo web</strong>.Soy amante a la tecnologia e informatica, Me gusta ir en busca de nuevas
+                        <b> ideas</b> que permitan dar solucion a las necesidades de las personas.</p>
+                    </div>
+                </article>
+
+                <!--Seccion Redes Sociales,Contacto De Acerca De Mi-->
+                <div class="social-media">
+                    <a href="https://www.facebook.com/davissantiago.ramirezdiaz" target="_blank">
+                        <img src="img/fe.png" alt="" width="50">
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=573008165981">
+                        <img src="img/wat.png" target="_blank" alt="" width="50">
+                    </a>
+
+                    <a href="mailto:davisantiagoramirezdiaz@gmail.com">
+                        <img src="img/sd.png" target="_blank" alt="" width="50">
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <!--FORMULARIO DE CONTACTO-->
+
+        <!--Seccion Principal Formulario de Contacto-->
+        <section class="main-formulario content-tecno scrollflow -slide-top -opacity" id="contacto">
+            <div class="text-form" >
+                <h2>Formulario de contacto</h2>
+            </div>
+            <!--Seccion Formulario-->
+            <form action="mail.php" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="email" id="correo" name="correo" placeholder="Correo" required>
+                <textarea type="text" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                <input type="submit" value="Enviar" onclick="return validar_form()">
+            </form>
+        </section>
+
+        <!--MIS PROYECTOS-->
+
+        <!--Contenedor Principal Mis proyectos-->
+        <div class="mainprojects" id="projects">
+            <!--Contenedor Imagen.gif Del Programador-->
+            <div class="content-developer">
+                <img class="scrollflow -slide-right -opacity" src="img/8-iloveimg-cropped-iloveimg-cropped.gif" alt="" width="">
+            </div>
+            <!--Session Principal Mis Proyectos-->
+            <section class="content-projects scrollflow -slide-top -opacity">
+                <!--Texto de Apertura-->
+                <article class="texto-projects">
+                    <h2>Mis proyectos</h2>
+                </article>
+                <!--Contenedor con los tipos Proyectos-->
+                <div class="projects">
+                    <div class="rel-ab1">
+                        <a href="http://senadsibeta.comli.com/" target="_blank">
+                            <img src="img/senadsi.PNG" alt="">
+                        </a>
+                    </div>
+                    <div class="rel-ab2">
+                        <a href="http://avesmontebello.comli.com/" target="_blank">
+                            <img src="img/aves.PNG" alt="">
+                        </a>
+                    </div>
+                    <div class="rel-ab3">
+                        <a href="http://davis-piinducol.000webhostapp.com/" target="_blank">
+                            <img src="img/pinducol.PNG" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--PIE DE PAGINA-->
+
+        <footer>
+            <!--Contenedor Con El Logo-->
+            <div class="footerlogo">
+                <img src="img/logo2.png" alt="" width="100">
+            </div>
+            <!--Contenedor Con Las Redes Sociales-->
+            <div class="social-media-footer">
+                <a href="https://www.facebook.com/davissantiago.ramirezdiaz" target="_blank">
+                    <img src="img/facebook.png" alt="" width="40">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=573008165981">
+                    <img src="img/wa.png" alt="" width="40"> </a>
+                <button>Contactame</button>
+            </div>
+            <!--Contenedor Con Los Derechos de Autor-->
+            <div class="derechos">
+                <p>2018
+                    <br>One page creado por Davis santiago ramirez diaz</p>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+>>>>>>> gitest2/master
+</html>
