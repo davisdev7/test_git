@@ -15,27 +15,7 @@
     <title>Davis Ramirez YK - Diseñador WEB y Desarrollador WEB</title>
 
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            // Selectors
-            ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
-            header: null, // Selector for fixed headers (must be a valid CSS selector)
 
-            // Speed & Easing
-            speed: 1300, // Integer. How fast to complete the scroll in milliseconds
-            offset:100, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-            easing: 'easeInOutCubic', // Easing pattern to use
-            customEasing: function (time) { }, // Function. Custom easing pattern
-
-            // Callback API
-            before: function () { }, // Callback to run before scroll
-            after: function () { } // Callback to run after scroll
-        });
-
-        $(window).on('load', function() { // makes sure the whole site is loaded 
-  $('#status').fadeOut(); // will first fade out the loading animation 
-  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-  $('body').delay(350).css({'overflow':'visible'});
-});
 
     </script>
 
